@@ -137,3 +137,12 @@
 // newArr.sort((a, b) => a - b);
 // console.log(newArr); 
 
+
+
+// 14-masala
+let arr = [5, 4, 2, 7, 8, 3, 10, 9, 6, 1]
+let newArr = []
+arr.forEach((num , index) => {
+    if (index % 2 === 0 ) newArr.push(num)  
+})
+console.log(Math.min(...newArr));
